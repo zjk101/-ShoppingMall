@@ -1,0 +1,1 @@
+<swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{1000}}"><block wx:for="{{dataList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><swiper-item><view class="swiper-item"><image class="swiper" src="{{item.imgUrl}}" mode></image></view></swiper-item></block></swiper>
